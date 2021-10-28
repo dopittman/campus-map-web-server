@@ -8,8 +8,6 @@ app = Flask(__name__)
 
 test_url = "http://campusmapuncp.s3-website-us-east-1.amazonaws.com/"
 
-# we are importing our function from the colors.py file
-
 
 @app.route("/", methods=['GET'])
 def index():

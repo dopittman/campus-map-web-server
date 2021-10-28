@@ -11,7 +11,6 @@ def get_student_data(url):
 
     # with open(url) as fp:
     #     soup = BeautifulSoup(fp, 'html.parser')
-    URL = "http://campusmapuncp.s3-website-us-east-1.amazonaws.com/"
     page = requests.get(url)
 
     soup = BeautifulSoup(page.content, "html.parser")
